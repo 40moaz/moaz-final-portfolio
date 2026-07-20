@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Responsive Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full-Stack MERN Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "REST API Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Modern UI with React & Next.js",
     icon: creator,
   },
 ];
@@ -97,10 +97,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -113,58 +109,31 @@ const technologies = [
     icon: docker,
   },
 ];
-
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Freelance Front-End Developer",
+    company_name: "Self-Employed",
+    icon: web,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2024 - 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built responsive and interactive user interfaces using React.js and Tailwind CSS.",
+      "Converted Figma designs into pixel-perfect web applications.",
+      "Optimized website performance and accessibility.",
+      "Collaborated with clients to deliver clean and user-friendly solutions.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Freelance MERN Stack Developer",
+    company_name: "Self-Employed",
+    icon: web,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed full-stack web applications using MongoDB, Express.js, React.js, and Node.js.",
+      "Designed secure RESTful APIs with JWT authentication and role-based authorization.",
+      "Integrated third-party APIs, cloud storage, and payment solutions.",
+      "Deployed and maintained production-ready applications using Vercel and Render.",
     ],
   },
 ];
@@ -198,58 +167,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AGenZ Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A modern digital marketing platform designed to showcase and promote marketing services, including branding, social media management, and online advertising solutions. The website focuses on clean UI, responsive design, and user-friendly navigation to enhance client engagement and conversion rates.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: "https://res.cloudinary.com/ffvila4s/image/upload/v1784545042/Capture_mbuqau.png",
+    source_code_link: "https://agenz.site/",
   },
   {
-    name: "Job IT",
+    name: "Restaurant Web Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A responsive food and restaurant web app with categorized menu items and interactive UI. Demonstrates frontend skills in layout design, responsiveness, and UI structuring.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "MongoDB",
+        color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "https://res.cloudinary.com/ffvila4s/image/upload/v1784545169/food_yrobcm.png",
+    source_code_link: "https://40moaz.github.io/food/",
   },
   {
-    name: "Trip Guide",
+    name: "Book Store Web Application",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A responsive book store app with dynamic book listing and organized UI. Demonstrates reusable components, state handling, and clean frontend implementation.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +226,71 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "https://res.cloudinary.com/ffvila4s/image/upload/v1784545348/book_b1oqqz.png",
+    source_code_link: "https://bookstore-five-xi.vercel.app/",
+  },
+  {
+    name: "Learnify – Learning Management System (LMS)",
+    description:
+      "A production-ready LMS for structured courses and learning content with an intuitive UI. Focuses on scalable architecture, reusable components, and responsive design.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "https://res.cloudinary.com/ffvila4s/image/upload/v1784546087/learnify_hv5txt.png",
+    source_code_link: "",
+  },
+  {
+    name: "Notes app",
+    description:
+      "A notes management application that enables users to create, organize, and manage their notes efficiently with a clean and user-friendly interface.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "https://moaz-a.surge.sh/assets/notes-app-BSShifFY.png",
+    source_code_link: "https://40moaz.github.io/notes/",
+  },
+  {
+    name: "Password Generator app",
+    description:
+      "A secure password generator that creates strong, customizable passwords with one click and allows instant copying for better user convenience and security.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "https://moaz-a.surge.sh/assets/password-generator-C7ihbt3n.png",
+    source_code_link: "https://password-generator-moaz.surge.sh/",
   },
 ];
 

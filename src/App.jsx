@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-
+import { Toaster } from "react-hot-toast";
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,7 +19,13 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        
+        <Toaster
+position="top-right"
+reverseOrder={false}
+/>
       </div>
+      
     </BrowserRouter>
   );
 }
